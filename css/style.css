@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 5px 0px 15px 0px;
+  position: fixed;
+  width: 375px;
+  height: 136px;
+  background-color: #2F80ED;
+}
+
+h1{
+  font-size: 0.90em;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h3{
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 1.2;
+}
+
+.recent, .title, .profile {
+   display: inline-block;
+   padding-top: 26px;
+   margin-bottom: 8px;
+}
+
+.profile{
+  float: left;
+  position: relative;
+  padding-left: 16px;
+}
+
+h1.title {
+  padding-left:113px;
+  font-size: 1.67em;
+  font-weight:600;
+  padding-top:0px;
+}
+
+.recent{
+  float: right;
+  position: relative;
+  padding-right: 12px;
+}
+
+.busstop, .search{
+  width: 355px;
+  height: 24px;
+  display: block;
+  padding-left: 12px;
+  margin-left:12px;
+  margin-right: 12px;
+  margin-bottom: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.youarehere, .nameofbusstop, .xbutton{
+  display: inline-block;
+}
+
+.searchsymbol, .nameofbusstop, .xbutton{
+  display: inline-block;
+}
+
+img.searchbar{
+  width:12px;
+  height:12px;
+}
+
+.nameofbusstop {
+  text-align: left;
+  padding-left:12px;
+}
+
+.youarehere, .searchsymbol, .xbutton {
+  padding-top: 5px;
+}
+
+.xbutton{
+  float: right;
+  padding-right: 5px;
+  padding-top: 7px;
+}
+
+img.resize{
+  width:18px;
+  height: auto;
+}
+
+.bus-list {
+  width: 100%;
+  height: 78px;
+  padding-top: 136px;
+  background-color: #eaeaea;
+  display: block;
+}
+
+.location {
+  width: 100%;
+  height: 78px;
+  border-bottom: 1px solid grey;
+}
+
+.location:hover {
+  background-color: rgba(170, 172, 175,0.75);
+}
+
+.south {
+  background-color: #33B0FF;
+}
+
+.north {
+  background-color: #0A54B7;
+}
+
+.east {
+  background-color: #0380AA;
+}
+
+.west {
+  background-color: #2E03AA;
+}
+
+.reroute{
+  background-color: white;
+  border: 1px dotted #2F80ED;
+  border-style:
+  color: #8A8A8F;
+}
+
+
+.oos{
+  background-color: grey;
+  color: #8A8A8F;
+}
+
+h2.route, h3.route {
+  text-align: center;
+  color: #8A8A8F;
+}
+
+h3.resume {
+ width:50px;
+ align-content: center;
+}
+
+ h2.resume {
+  width:50px;
+  align-content: center;
+}
+
+ .bluebox, .content, .time, .arrow {
+    display: inline-block;
+    padding-top: 0px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.bluebox {
+  width: 62px;
+  height: 62px;
+  margin-left: 16px;
+  margin-top:8px;
+  padding: 12px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  border-radius: 12px;
+  float: left;
+}
+
+.time, .content{
+  vertical-align: top;
+  }
+
+.time {
+  width: 50px;
+  padding-top: 5px;
+  vertical-align: middle;
+  text-align: center;
+  align-content: center;
+  color: grey;
+  width: 30px;
+}
+
+.na{
+    padding-top: 3px;
+    width: 50px;
+}
+
+
+.content {
+  font-size: 16px;
+  padding-top: 23px;
+  margin-left : 30px;
+  width: 160px;
+}
+
+
+.arrow {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 12px;
+    float: right;
+    color: #8A8A8F;
+}
